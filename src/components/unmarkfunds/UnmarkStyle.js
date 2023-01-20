@@ -58,7 +58,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".paperStyle": {
     borderRadius: "8px",
-    margin: "5px",
+    margin: "10px 5px",
     padding: "5px",
     display: "flex",
   },

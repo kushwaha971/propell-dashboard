@@ -17,6 +17,7 @@ const style = {
   fontSize: "12px",
   lineHeight: "16px",
 };
+
 function BottomNavBar() {
   const [value, setValue] = React.useState(1);
 
@@ -32,7 +33,7 @@ function BottomNavBar() {
           sx={{
             position: "fixed",
             bottom: 0,
-            width: "0.9",
+            width: "1",
             "& .Mui-selected": {
               color: "#5516AA",
             },
@@ -41,15 +42,27 @@ function BottomNavBar() {
         >
           <BottomNavigationAction
             label={<Typography sx={style}>Home</Typography>}
-            icon={<HomeTwoToneIcon />}
+            icon={
+              <HomeTwoToneIcon
+                sx={{ color: value === 0 ? "#5516AA" : "none" }}
+              />
+            }
           />
           <BottomNavigationAction
             label={<Typography sx={style}>Portfolio</Typography>}
-            icon={<PieChartOutlineOutlinedIcon />}
+            icon={
+              <PieChartOutlineOutlinedIcon
+                sx={{ color: value === 1 ? "#5516AA" : "none" }}
+              />
+            }
           />
           <BottomNavigationAction
             label={<Typography sx={style}>Profile</Typography>}
-            icon={<AccountCircleOutlinedIcon />}
+            icon={
+              <AccountCircleOutlinedIcon
+                sx={{ color: value === 2 ? "#5516AA" : "none" }}
+              />
+            }
           />
         </BottomNavigation>
       </Box>
