@@ -62,8 +62,8 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
   },
   ".bottomContainerStyle": {
     position: "fixed",
-    // height: "50px",
-    bottom: "50px",
+    
+    bottom: "30px",
     margin: "5% auto",
     left: 0,
     right: 0,

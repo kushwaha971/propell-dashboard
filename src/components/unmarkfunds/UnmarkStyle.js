@@ -82,14 +82,15 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".bottomContainerStyle": {
     marginTop: "32px",
-    marginLeft: "-15px",
-    marginRight: "-15px",
-    bottom: "0",
+    marginLeft: "-10px",
+    marginRight: "-10px",
+    bottom: "-5",
     [theme.breakpoints.up("sm")]: {
       width: "110%",
     },
   },
   ".bottomPaperStyle": {
+    // width:"90%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -110,7 +111,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".CreditValueStyle": {
     fontFamily: "Lato",
-    fontStyle: "normal",
+    fontStyle: "normal", 
     fontWeight: 500,
     fontSize: "14px",
     lineHeight: "16px",
