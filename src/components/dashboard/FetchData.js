@@ -37,10 +37,12 @@ function FetchData() {
               <Box className="dataContainer">
                 <Typography className="dataKeyStyle">Folio Number</Typography>
                 <Typography className="dataValueStyle">
-                  {data.folio_number}
+                  <span style={{ color: "#5516AA" }}>{data.folio_number}</span>
                 </Typography>
                 <Typography className="dataKeyStyle">Nav</Typography>
-                <Typography className="dataValueStyle">{data.nav}</Typography>
+                <Typography className="dataValueStyle">
+                  <span style={{ color: "#5516AA" }}> {data.nav}</span>
+                </Typography>
               </Box>
             </Box>
           );
