@@ -81,14 +81,19 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     },
   },
   ".bottomContainerStyle": {
-    width: "110%",
     marginTop: "32px",
     marginLeft: "-15px",
+    marginRight: "-15px",
+    bottom: "0",
+    [theme.breakpoints.up("sm")]: {
+      width: "110%",
+    },
   },
   ".bottomPaperStyle": {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
+    paddingBottom:"10px",
   },
   ".bottomTextBoxStyle": {
     display: "flex",

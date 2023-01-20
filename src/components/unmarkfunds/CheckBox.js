@@ -1,4 +1,4 @@
-import { Box, Checkbox, createTheme, Paper, Typography } from "@mui/material";
+import { Box, Checkbox, Paper, Typography } from "@mui/material";
 import React from "react";
 import FundList from "./FundList";
 import UnmarkStyle from "./UnmarkStyle";
