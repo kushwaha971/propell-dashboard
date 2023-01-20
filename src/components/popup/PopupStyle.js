@@ -1,0 +1,65 @@
+import { Box, styled } from "@mui/material";
+
+const PopupStyle = styled(Box)(({ theme }) => ({
+  ".popupHeadingStyle": {
+    padding: "20px 10px",
+    fontFamily: "League Spartan",
+    fontStyle: "normal",
+    fontWeight: 600,
+    fontSize: "24px",
+    lineHeight: "24px",
+    textAlign: "center",
+    color: "#1C1D21",
+    margin: "10px",
+  },
+  ".popupCreditLineTextStyle": {
+    fontFamily: "Lato",
+    fontStyle: "normal",
+    fontWeight: 400,
+    fontSize: "14px",
+    padding: "10px",
+    margin: "10px",
+    textAlign: "center",
+    letterSpacing: "0.4px",
+    color: " #8181A5",
+  },
+  ".popUpButtonContainerStyle": {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    margin: "20px",
+  },
+  ".popupBackBtnStyle": {
+    padding: "16px 25px",
+    fontFamily: "Lato",
+    fontStyle: "normal",
+    fontWeight: 700,
+    fontSize: "16px",
+    lineHeight: "16px",
+    color: "#5516AA",
+    background: "#E9DCFA",
+    borderRadius: "150px",
+    textTransform: "none",
+  },
+  ".popupConfirmBtnStyle": {
+    padding: "10px 25px",
+    fontFamily: "Lato",
+    fontStyle: "normal",
+    fontWeight: 700,
+    fontSize: "16px",
+    lineHeight: "16px",
+    color: " #FFFFFF",
+    background: "#EF4F53;",
+    borderRadius: "150px",
+    textTransform: "none",
+  },
+  ".popupImageStyle": {
+    height: "180px",
+    width: "254.88px",
+    padding: "5px",
+    display: "flex",
+    margin: "auto",
+  },
+}));
+
+export default PopupStyle;

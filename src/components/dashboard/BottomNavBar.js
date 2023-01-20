@@ -32,7 +32,7 @@ function BottomNavBar() {
           sx={{
             position: "fixed",
             bottom: 0,
-            width: "1",
+            width: "0.9",
             "& .Mui-selected": {
               color: "#5516AA",
             },
