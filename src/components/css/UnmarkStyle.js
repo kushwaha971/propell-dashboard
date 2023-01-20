@@ -81,9 +81,8 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".bottomContainerStyle": {
     margin: "-7px -8px",
-    marginTop: "32px",   
+    marginTop: "32px",
     bottom: "-10",
-   
   },
   ".bottomPaperStyle": {
     display: "flex",
@@ -113,6 +112,5 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     lineHeight: "16px",
     color: "#1C1D21",
   },
-  
 }));
 export default UnmarkStyle;

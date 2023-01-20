@@ -1,10 +1,11 @@
 import { Box, Button, Paper, Typography } from "@mui/material";
 import React from "react";
-import UnmarkStyle from "./UnmarkStyle";
+
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { useNavigate } from "react-router";
 import CheckBox from "./CheckBox";
 import Popup from "../popup/Popup";
+import UnmarkStyle from "../css/UnmarkStyle";
 
 function Unmark() {
   const nevigate = useNavigate();

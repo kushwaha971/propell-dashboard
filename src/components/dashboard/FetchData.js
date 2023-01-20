@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
-import DashboardStyle from "./DashboardStyle";
 import { Box, Typography } from "@mui/material";
+import DashboardStyle from "../css/DashboardStyle";
 
 function FetchData() {
   const [myData, setMyData] = React.useState([]);

@@ -1,7 +1,7 @@
 import { Box, Checkbox, Paper, Typography } from "@mui/material";
 import React from "react";
+import UnmarkStyle from "../css/UnmarkStyle";
 import FundList from "./FundList";
-import UnmarkStyle from "./UnmarkStyle";
 
 function CheckBox() {
   const [data, setData] = React.useState(FundList);

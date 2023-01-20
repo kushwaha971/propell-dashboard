@@ -1,7 +1,8 @@
 import { Box, Button, Dialog, Typography } from "@mui/material";
 import React from "react";
+import PopupStyle from "../css/PopupStyle";
 import colletralFundsImage from "../images/ColletralImg.svg";
-import PopupStyle from "./PopupStyle";
+
 
 function Popup(props) {
   return (

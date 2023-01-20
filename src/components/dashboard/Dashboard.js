@@ -1,10 +1,10 @@
 import { Box, Button, IconButton, Typography } from "@mui/material";
 import React from "react";
-import DashboardStyle from "./DashboardStyle";
 import NotificationsNoneRoundedIcon from "@mui/icons-material/NotificationsNoneRounded";
 import FetchData from "./FetchData";
 import BottomNavBar from "./BottomNavBar";
 import { useNavigate } from "react-router";
+import DashboardStyle from "../css/DashboardStyle";
 
 function Dashboard() {
   const nevigate = useNavigate();

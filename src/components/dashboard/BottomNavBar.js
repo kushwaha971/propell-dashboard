@@ -8,7 +8,8 @@ import React from "react";
 import HomeTwoToneIcon from "@mui/icons-material/HomeTwoTone";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
-import DashboardStyle from "./DashboardStyle";
+import DashboardStyle from "../css/DashboardStyle";
+
 
 const style = {
   fontFamily: "League Spartan",
