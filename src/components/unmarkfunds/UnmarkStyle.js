@@ -80,7 +80,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     },
   },
   ".bottomContainerStyle": {
-    margin: "0px -8px",
+    margin: "-5px -8px",
     marginTop: "32px",   
     bottom: "-10",
    
