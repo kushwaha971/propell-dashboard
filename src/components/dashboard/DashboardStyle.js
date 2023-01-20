@@ -15,12 +15,12 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     fontStyle: "normal",
   },
   ".protfoliContainerStyle": {
+    background: `linear-gradient(45deg, white, transparent 250%)right,repeating-linear-gradient(45deg, transparent, #41C0D2 5px, white 10px)`,
     margin: "5px",
     marginTop: "18px",
     display: "flex",
     flexDirection: "column",
     padding: "16px 15px",
-    background: "#5E81F4",
     borderRadius: "8px",
   },
   ".boxContainerStyle": {
@@ -79,7 +79,7 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     fontWeight: 600,
     fontSize: "16px",
     lineHeight: "16px",
-    textTransform:"none",
+    textTransform: "none",
     "&: hover": {
       color: "#5516AA",
       background: "#ffffff",
@@ -114,7 +114,7 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     fontWeight: 600,
     fontSize: "12px",
     lineHeight: "16px",
-    textTransform:"none",
+    textTransform: "none",
     "&: hover": {
       color: "#FDE9EA",
       background: "#EF4F53",

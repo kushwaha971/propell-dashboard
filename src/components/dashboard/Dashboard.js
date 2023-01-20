@@ -25,7 +25,9 @@ function Dashboard() {
             <Typography className="loanTextStyle">
               Total portfolio value
             </Typography>
-            <Typography className="healthyTextStyle">₹ 1500000.00</Typography>
+            <Typography className="healthyTextStyle">
+              <span style={{ color: "#41C0D2" }}>₹ 1500000.00</span>
+            </Typography>
           </Box>
         </Box>
         <Box className="boxContainerStyle">
