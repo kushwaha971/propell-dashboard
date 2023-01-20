@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "./components/dashboard/Dashboard";
-import Portfoliofetch from "./components/portfoliofetch/Portfoliofetch";
-import Unmark from "./components/unmarkfunds/Unmark";
+import Dashboard from "./components/dashboard";
+import Unmark from "./components/unmarkfunds";
+import Portfoliofetch from "./components/portfoliofetch";
 
-function App() {
+
+function App() {   
   return (
     <React.Fragment>
       <BrowserRouter>
@@ -19,3 +20,4 @@ function App() {
 }
 
 export default App;
+ 
