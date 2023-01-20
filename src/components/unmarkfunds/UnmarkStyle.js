@@ -58,13 +58,12 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".paperStyle": {
     borderRadius: "8px",
-    boxShadow: "0px 2px 4px rgba(28, 29, 33, 0.15)",
     margin: "5px",
     padding: "5px",
     display: "flex",
   },
   ".unmarkBtnStyle": {
-    margin: "10px",
+    margin: " 12px",
     background: "#EF4F53",
     borderRadius: "150px",
     padding: "16px",
@@ -81,22 +80,19 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     },
   },
   ".bottomContainerStyle": {
-    marginTop: "32px",
-    marginLeft: "-10px",
-    marginRight: "-10px",
-    bottom: "-5",
-    [theme.breakpoints.up("sm")]: {
-      width: "110%",
-    },
+    margin: "0px -15px",
+    marginTop: "32px",   
+    bottom: "-10",
+   
   },
   ".bottomPaperStyle": {
-    // width:"90%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    paddingBottom:"10px",
+    paddingBottom: "10px",
   },
   ".bottomTextBoxStyle": {
+    margin: " 0px 12px",
     display: "flex",
     justifyContent: "space-between",
     padding: "5px 20px",
@@ -111,7 +107,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".CreditValueStyle": {
     fontFamily: "Lato",
-    fontStyle: "normal", 
+    fontStyle: "normal",
     fontWeight: 500,
     fontSize: "14px",
     lineHeight: "16px",
