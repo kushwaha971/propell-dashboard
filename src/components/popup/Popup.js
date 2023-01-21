@@ -22,7 +22,7 @@ function Popup(props) {
 
           <img
             src={colletralFundsImage}
-            alt="Prop"
+            alt="colletral-fund"
             className="popupImageStyle"
           />
 
