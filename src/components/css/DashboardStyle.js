@@ -121,8 +121,9 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     },
   },
   ".portfolioDivStyile": {
-     display: "flex", justifyContent: "space-between" 
-    },
+    display: "flex",
+    justifyContent: "space-between",
+  },
   ".dataContainerStyle": {
     margin: "5px",
     marginTop: "12px",

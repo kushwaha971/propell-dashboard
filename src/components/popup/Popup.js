@@ -3,7 +3,6 @@ import React from "react";
 import PopupStyle from "../css/PopupStyle";
 import colletralFundsImage from "../../images/ColletralImg.svg";
 
-
 function Popup(props) {
   return (
     <Dialog

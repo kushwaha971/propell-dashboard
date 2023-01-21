@@ -10,7 +10,6 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
 import DashboardStyle from "../css/DashboardStyle";
 
-
 const style = {
   fontFamily: "League Spartan",
   fontStyle: "normal",

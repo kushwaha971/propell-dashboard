@@ -5,7 +5,7 @@ import FundList from "./FundList";
 
 function CheckBox() {
   const [data, setData] = React.useState(FundList);
-  
+
   // Handling checked and unchecked
   const handleChange = (id) => {
     const copyList = [...data];
