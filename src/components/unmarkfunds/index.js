@@ -1,6 +1,5 @@
 import { Box, Button, Paper, Typography } from "@mui/material";
 import React from "react";
-
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { useNavigate } from "react-router";
 import CheckBox from "./CheckBox";
@@ -45,6 +44,7 @@ function Unmark() {
               <Button
                 variant="contained"
                 className="unmarkBtnStyle"
+                // handle popup page
                 onClick={() => setPopup(!popup)}
               >
                 Unmark funds

@@ -2,7 +2,7 @@ import { Box, styled } from "@mui/material";
 
 const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
   ".backBtnStyle": {
-    margin: "5px",
+    margin: "6px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
     fontWeight: 400,
@@ -12,7 +12,7 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
     textTransform: "none",
   },
   ".headingTextStyle": {
-    marginTop: "25px",
+    marginTop: "26px",
     padding: " 0px 20px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
@@ -22,7 +22,7 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
     color: "#1C1D21",
   },
   ".subHeadingTextStyle": {
-    padding: "8px 25px",
+    padding: "8px 26px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
     fontWeight: "400",
@@ -56,7 +56,7 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
     lineHeight: "16px",
   },
   ".arrowBtnStyle": {
-    border: "1.5px solid #BC91F6",
+    border: "2px solid #BC91F6",
     color: "#BC91F6",
     borderRadius: "50%",
   },
@@ -64,7 +64,7 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
     position: "fixed",
     
     bottom: "0px",
-    margin: "3% auto",
+    margin: "2% auto",
     left: 0,
     right: 0,
   },
@@ -75,7 +75,7 @@ const PortfoliofetchStyle = styled(Box)(({ theme }) => ({
     fontSize: "12px",
     lineHeight: "16px",
     color: "#A1A1BC",
-    margin: "1% auto",
+    margin: "2% auto",
     width: "60%",
     textAlign: "center",
   },

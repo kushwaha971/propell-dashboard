@@ -2,7 +2,7 @@ import { Box, styled } from "@mui/material";
 
 const UnmarkStyle = styled(Box)(({ theme }) => ({
   ".backBtnStyle": {
-    margin: "5px",
+    margin: "6px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
     fontWeight: 400,
@@ -12,7 +12,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     textTransform: "none",
   },
   ".headingTextStyle": {
-    marginTop: "25px",
+    marginTop: "24px",
     padding: " 0px 20px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
@@ -22,7 +22,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     color: "#1C1D21",
   },
   ".subHeadingTextStyle": {
-    padding: "8px 25px",
+    padding: "8px 24px",
     fontFamily: "League Spartan",
     fontStyle: "normal",
     fontWeight: "400",
@@ -58,7 +58,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
   },
   ".paperStyle": {
     borderRadius: "8px",
-    margin: "10px 5px",
+    margin: "10px 4px",
     padding: "5px",
     display: "flex",
   },
@@ -94,7 +94,7 @@ const UnmarkStyle = styled(Box)(({ theme }) => ({
     margin: " 0px 12px",
     display: "flex",
     justifyContent: "space-between",
-    padding: "5px 20px",
+    padding: "4px 20px",
   },
   ".creditTextStyle": {
     fontFamily: "Lato",

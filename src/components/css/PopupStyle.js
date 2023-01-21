@@ -30,7 +30,7 @@ const PopupStyle = styled(Box)(({ theme }) => ({
     margin: "20px",
   },
   ".popupBackBtnStyle": {
-    padding: "16px 25px",
+    padding: "16px 24px",
     fontFamily: "Lato",
     fontStyle: "normal",
     fontWeight: 700,
@@ -42,7 +42,7 @@ const PopupStyle = styled(Box)(({ theme }) => ({
     textTransform: "none",
   },
   ".popupConfirmBtnStyle": {
-    padding: "10px 25px",
+    padding: "10px 24px",
     fontFamily: "Lato",
     fontStyle: "normal",
     fontWeight: 700,
@@ -55,7 +55,7 @@ const PopupStyle = styled(Box)(({ theme }) => ({
   },
   ".popupImageStyle": {
     height: "180px",
-    width: "254.88px",
+    width: "254px",
     padding: "5px",
     display: "flex",
     margin: "auto",

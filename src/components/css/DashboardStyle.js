@@ -1,10 +1,10 @@
 import { Box, styled } from "@mui/material";
 
 const DashboardStyle = styled(Box)(({ theme }) => ({
-  margin: "0px 7px",
+  margin: "0px 8px",
   ".appbarStyle": {
     display: "flex",
-    margin: "5px",
+    margin: "6px",
     justifyContent: "space-between",
   },
   ".textNameStyle": {
@@ -15,22 +15,22 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     fontStyle: "normal",
   },
   ".protfoliContainerStyle": {
-    background: `linear-gradient(45deg, white, transparent 250%)right,repeating-linear-gradient(45deg, transparent, #41C0D2 5px, white 10px)`,
-    margin: "5px",
+    background: `linear-gradient(45deg, white, transparent 250%)right,repeating-linear-gradient(45deg, transparent, #41C0D2 6px, white 10px)`,
+    margin: "6px",
     marginTop: "18px",
     display: "flex",
     flexDirection: "column",
-    padding: "16px 15px",
+    padding: "16px 14px",
     borderRadius: "8px",
   },
   ".boxContainerStyle": {
-    margin: "5px",
+    margin: "6px",
     marginTop: "12px",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: "16px 15px",
-    border: "1.5px solid #E9DCFA",
+    padding: "16px 14px",
+    border: "2px solid #E9DCFA",
     borderRadius: "8px",
   },
   ".loanTextStyle": {
@@ -86,7 +86,7 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     },
   },
   ".fundsContainerStyle": {
-    margin: "5px",
+    margin: "6px",
     marginTop: "12px",
     display: "flex",
     flexDirection: "row",
@@ -120,7 +120,10 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
       background: "#EF4F53",
     },
   },
-  ".fetchDataContainerStyle": {
+  ".portfolioDivStyile": {
+     display: "flex", justifyContent: "space-between" 
+    },
+  ".dataContainerStyle": {
     margin: "5px",
     marginTop: "12px",
     padding: "10px",
@@ -137,9 +140,9 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
   },
   ".dataContainer": {
     display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-between",
-    margin: "5px",
+    flexDirection: "column",
+    width: "50%",
+    margin: "2px 8px",
   },
   ".dataKeyStyle": {
     fontFamily: "League Spartan",
@@ -156,6 +159,7 @@ const DashboardStyle = styled(Box)(({ theme }) => ({
     fontSize: "10px",
     lineHeight: "24px",
     color: "#1C1D21",
+    textAlign: "left",
   },
   ".currentValueStyle": {
     fontFamily: "Lato",

@@ -1,10 +1,12 @@
 import { Box, Button, IconButton, Typography } from "@mui/material";
 import React from "react";
 import NotificationsNoneRoundedIcon from "@mui/icons-material/NotificationsNoneRounded";
-import FetchData from "./FetchData";
+// // import getPortofolioDetail from "./getPortofolioDetail";
+// import GetPortofolioDetail from "./GetPortofolioetail";
 import BottomNavBar from "./BottomNavBar";
 import { useNavigate } from "react-router";
 import DashboardStyle from "../css/DashboardStyle";
+import GetPortfolioDetails from "./GetPortfolioDetails";
 
 function Dashboard() {
   const nevigate = useNavigate();
@@ -64,7 +66,7 @@ function Dashboard() {
             Unmark funds
           </Button>
         </Box>
-        <FetchData />
+        <GetPortfolioDetails />
         <BottomNavBar />
       </DashboardStyle>
     </React.Fragment>
